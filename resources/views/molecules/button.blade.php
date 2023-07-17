@@ -1,0 +1,1 @@
+<button class="w3-btn w3-blue-grey">{{$btnText}}</button>
