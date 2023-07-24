@@ -1,6 +1,6 @@
 <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="/" class="logo w3-bar-item w3-button">HYPERSONATA <span class="logotag w3-hide-small">Web Design &amp; Digital Marketing</span></a>
+    <a href="/" class="logo w3-bar-item w3-button">ALDEN INTERACTIVE <span class="logotag w3-hide-small">Web Design &amp; Digital Marketing</span></a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small w3-hide-medium w3-hide-large">
       <a href="#contact" class="w3-bar-item w3-button">Contact</a>

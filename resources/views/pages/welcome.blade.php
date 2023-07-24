@@ -2,14 +2,52 @@
 
 @section('article')  
 <!-- Hero -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <div class="w3-row-padding">
+    <div class="w3-col m6 l6">
+      <div class="w3-card-4 home-contact-info">
+
+  <header class="w3-container w3-black">
+    <h3>CONTACT</h3>
+  </header>
+
+  <div class="w3-container w3-padding-large">
+      <img class="w3-image" src="/img/piano-strings.jpg" alt="Design & Digital Marketing">
+    <p>
+      Disappointed with the perfomance of your website? Looking to
+      increase online traffic and sales? <strong>WE CAN HELP!</strong>
+    </p>
+    <p>
+      Connect with us today to schedule a free website
+      review and in-depth digital strategy consultation.
+    </p>
+    <p>
+      P: <b>773.641.1561</b><br>
+      E: <b>cyborgk [at] gmail.com</b>
+    </p>
+        </div>
+      </div>
+    <br>
+    <br>
+    </div>
+
+    <div class="w3-col m6 l6">
+      @include('forms.contact')
+
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<!-- <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
   <img class="w3-image" src="/img/piano-strings.jpg" alt="Design & Digital Marketing" width="1500" height="800">
   <div class="w3-display-topmiddle w3-margin-top w3-center">
     <h1 class="herotag w3-text-white w3-hide-small w3-padding w3-black w3-opacity-min">
   Partners in the pursuit of perfection
     </h1>
   </div>
-</header>
+</header> -->
+
 <br>
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
@@ -57,38 +95,8 @@
   </div>
   <br>
   <br>
-  <div class="w3-row-padding">
-    <div class="w3-col m6 l6">
-      <div class="w3-card-4 home-contact-info">
 
-  <header class="w3-container w3-black">
-    <h3>CONTACT</h3>
-  </header>
 
-  <div class="w3-container w3-padding-large">
-    <p>
-      Disappointed with the perfomance of your website? Looking to 
-      increase online traffic and sales? <strong>WE CAN HELP!</strong>
-    </p>
-    <p>
-      Connect with us today to schedule a free website
-      review and in-depth digital strategy consultation.
-    </p>
-    <p>
-      P: <b>773.641.1561</b><br>
-      E: <b>cyborgk [at] gmail.com</b>
-    </p>
-        </div>
-      </div>
-    <br>
-    <br>
-    </div>
 
-    <div class="w3-col m6 l6">
-      @include('forms.contact')
-
-    </div>
-  </div>
-</div>
 @endsection
 
